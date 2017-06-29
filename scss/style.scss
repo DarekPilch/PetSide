@@ -1,0 +1,284 @@
+@import "variables";
+@import "grid";
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+section {
+  width: 100%;
+  background-color: #f8f6f7;
+}
+
+.section-1 {
+  height: 100vh;
+}
+
+.section-2 {
+  @media (max-width: 600px)  {
+    height: 300vh;
+  }
+  @media (min-width: 601px) and (max-width: 1023px) {
+    height: 150vh;
+  }
+}
+
+.section-3 {
+  height: 100vh;
+}
+
+.section-4 {
+  height: 100vh;
+}
+
+.background-image {
+background-image: url("../images/Yorkie.jpg");
+width: 100%;
+max-width: 1280px;
+height: 100vh;
+// background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: transparent;
+background-attachment: fixed;
+}
+
+.text-top {
+  font-size: 30px;
+  height: 80px;
+  padding-left: 20vw;
+  padding-top: 20vh;
+}
+
+// .menu {
+//   height: 80px;
+//   width: 100%;
+//   padding-left: 10vw;
+//   padding-top: 40vw;
+//
+// }
+
+ul {
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  font-size: 18px;
+  display: inline-block;
+  padding-right:0vw;
+  padding-left: 10vw;
+  padding-top: 10vh;
+}
+
+.button {
+  color: white;
+  text-align: center;
+  height: 70px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 7px;
+  background-color: #13bfb1;
+  padding-top: 10px;
+  margin: 30vh 22vw 20vh 22vw;
+}
+
+.dog {
+  background-image: url("../images/dog.jpg");
+  width: 100%;
+  height:50vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  //background-attachment: fixed;
+  }
+
+.cat {
+  background-image: url("../images/cat.jpg");
+  width: 100%;
+  height:50vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  //background-attachment: fixed;
+  }
+
+.rabitt {
+  background-image: url("../images/rabitt.jpg");
+  width: 100%;
+  height:50vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  //background-attachment: fixed;
+  }
+
+.step1,
+.step1_i {
+  background-color: #13bfb1;
+  font-size: 22px;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.step2,
+.step2_i {
+  background-color: #ffcc00;
+  font-size: 22px;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.step3,
+.step3_i {
+  background-color: #f75259;
+  font-size: 22px;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic_join,
+.pic_comment,
+.pic_money {
+  font-size: 120px;
+}
+
+.dogspic {
+  width: 100%;
+  padding-top: 15vh;
+}
+
+.prize_info {
+  background-color: #13bfb1;
+  font-size: 22px;
+  text-align: center;
+}
+
+.formular {
+padding: 5vh;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+ color: #ed2553;
+}
+
+.coll-1 {
+  background-color: #13bfb1
+}
+
+label {
+  color: white;
+}
+
+.contact {
+  background-color: #13bfb1;
+}
+
+.step1,
+.step1_i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+.step1_i {
+  display: none;
+}
+
+.first {
+  position: relative;
+  &:hover .step1_i {
+    display: block;
+}  &:hover .step1 {
+  display: none;
+}
+}
+
+.step1_info {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 5vw;
+}
+
+.step2,
+.step2_i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+.step2_i {
+  display: none;
+}
+
+.second {
+  position: relative;
+  &:hover .step2_i {
+    display: block;
+}  &:hover .step2 {
+  display: none;
+}
+}
+
+.step2_info {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 5vw;
+}
+
+.step3,
+.step3_i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  }
+
+.step3_i {
+  display: none;
+}
+
+.third {
+  position: relative;
+  &:hover .step3_i {
+    display: block;
+}  &:hover .step3 {
+  display: none;
+}
+}
+
+.step3_info {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 4vw;
+}
