@@ -23,7 +23,7 @@ function basename( error ) {
 slide();
 
 $(function() {
-const links = $('a');
+const links = $('ul a');
 
 links.on('click', function(event) {
     event.preventDefault();

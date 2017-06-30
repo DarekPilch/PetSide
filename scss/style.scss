@@ -88,7 +88,7 @@ li {
   text-align: center;
   height: 50px;
   width: 130px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   border-radius: 7px;
   background-color: #13bfb1;
@@ -96,8 +96,8 @@ li {
   // padding-left: 20vw;
   margin-left: 20vw;
   margin-top: 10vh;
-  padding-top: 3px;
-
+  padding-top: 5px;
+  border: solid 2px white;
 }
 
 .dog {
@@ -188,7 +188,8 @@ li {
 }
 
 .formular {
-padding: 5vh;
+  padding: 5vh;
+  background-color: #13bfb1;
 }
 
 .form-group {
@@ -309,4 +310,38 @@ label {
   display: flex;
   align-items: center;
   padding: 4vw;
+}
+
+.btn {
+  color: #13bfb1;
+  text-align: center;
+  font-weight: 900;
+  height: 30px;
+  width: 60px;
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 7px;
+  background-color: white;
+  border: solid 2px white;
+  margin-top: 2vh;
+}
+
+.LTphoto1 {
+  background-image: url("../images/LileTink1.jpg");
+  width: 100%;
+  height:50vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.LTphoto2 {
+  background-image: url("../images/LileTink2.jpg");
+  width: 100%;
+  height:50vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }
