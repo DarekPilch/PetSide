@@ -4,19 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PetSide</title>
+  <title>PetSite</title>
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="./css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
   <link href="./css/carousel.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 
-<body>
+<body class="animated slideInUp">
   <section class="section-1">
     <div class="background-image">
       <header>
         <div class="container clearfix">
+          <div class="LTlogo">
+            <a href="http://liletink.pl/" target="_blank"><img src="images/LTlogo.png"/></a>
+          </div>
           <p class="text-top">
             PROGRAM PARTNERSKI
           </p>
@@ -27,7 +31,7 @@
               <li><a href="#contact">KONTAKT</a></li>
             </ul>
           </div>
-          <div class="button">
+          <div class="button animated infinite pulse">
             <a href="#contact">
             DOŁĄCZ DO PROGRAMU
             </a>
@@ -40,14 +44,14 @@
     <div class="container clearfix">
       <div class="row">
         <div class="col-1">
-          <div class="dog"></div>
+          <div id="dog" class="dog"></div>
         </div>
         <div class="col-1 first">
           <div class="step1">DOŁĄCZ <br> i odbierz unikalny kod
             <div class="pic_join">
               <i class="fa fa-user-circle-o" aria-hidden="true"></i>
             </div>
-            <div class="more">[Dowiedz się więcej]
+            <div class="more animated infinite pulse">[Dowiedz się więcej]
             </div>
           </div>
         <div class="step1_i">
@@ -66,7 +70,7 @@
             <div class="pic_comment">
               <i class="fa fa-comments-o" aria-hidden="true"></i>
             </div>
-            <div class="more">[Dowiedz się więcej]
+            <div class="more animated infinite pulse">[Dowiedz się więcej]
             </div>
           </div>
           <div class="step2_i">
@@ -82,7 +86,7 @@
             <div class="pic_money">
               <i class="fa fa-money" aria-hidden="true"></i>
             </div>
-            <div class="more">[Dowiedz się więcej]
+            <div class="more animated infinite pulse">[Dowiedz się więcej]
             </div>
           </div>
           <div class="step3_i">
@@ -117,11 +121,10 @@
     <div class="container clearfix">
       <div class="row">
         <div class="coll-1">
-          <div class="contack">
+          <div class="contact">
             Masz pytania?<br><br>
-            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-
-
+            <i class="fa fa-volume-control-phone" aria-hidden="true"> +48 534 513 333</i><br>
+            <i class="fa fa-envelope-o" aria-hidden="true"> hello@liletink.com</i>
           </div>
         </div>
         <div class="coll-1">
@@ -132,12 +135,12 @@
               <div class="panel-body">
                 <form action="" class="contact-form" method="post">
                   <div class="form-group">
-                    <label>Email:</label>
-                    <input type="text" class="form-control" id="email" name="email">
                     <label>Imię:</label>
                     <input type="text" class="form-control" id="name" name="name">
                     <label>Nazwisko:</label>
                     <input type="text" class="form-control" id="surname" name="surname">
+                    <label>Email:</label>
+                    <input type="text" class="form-control" id="email" name="email">
                     <label>Nazwa firmy (jeśli dotyczy):</label>
                     <input type="text" class="form-control" id="companyname" name="companyname">
                   </div>

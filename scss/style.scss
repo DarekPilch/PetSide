@@ -45,11 +45,18 @@ background-color: transparent;
 background-attachment: fixed;
 }
 
+.LTlogo {
+  padding-left: 20vw;
+  padding-top: 4vh;
+  border-radius: 7px;
+}
+
 .text-top {
   font-size: 30px;
   height: 80px;
   padding-left: 20vw;
-  padding-top: 20vh;
+  padding-right: 10vw;
+  padding-top: 2vh;
 }
 
 // .menu {
@@ -71,23 +78,26 @@ a {
 
 li {
   font-size: 18px;
-  display: inline-block;
-  padding-right:0vw;
-  padding-left: 10vw;
-  padding-top: 10vh;
+  // display: inline-block;
+  padding-left: 20vw;
+  padding-top: 2vh;
 }
 
 .button {
   color: white;
   text-align: center;
-  height: 70px;
-  width: 200px;
-  font-size: 20px;
-  font-weight: 700;
+  height: 50px;
+  width: 130px;
+  font-size: 18px;
+  font-weight: 400;
   border-radius: 7px;
   background-color: #13bfb1;
-  padding-top: 10px;
-  margin: 30vh 22vw 20vh 22vw;
+  // padding-top: 10vh;
+  // padding-left: 20vw;
+  margin-left: 20vw;
+  margin-top: 10vh;
+  padding-top: 3px;
+
 }
 
 .dog {
@@ -200,6 +210,18 @@ label {
 
 .contact {
   background-color: #13bfb1;
+  font-size: 22px;
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header {
+  font-size: 22px;
+  padding-bottom: 3vh;
 }
 
 .step1,
@@ -213,13 +235,19 @@ label {
   display: none;
 }
 
+.fadeIn {
+  display: block !important;
+  -webkit-animation-duration: 0.7s;
+  animation-delay: 0.7s;
+}
+
 .first {
   position: relative;
-  &:hover .step1_i {
-    display: block;
-}  &:hover .step1 {
-  display: none;
-}
+//   &:hover .step1_i {
+//     display: block;
+// }  &:hover .step1 {
+//   display: none;
+// }
 }
 
 .step1_info {
@@ -242,11 +270,11 @@ label {
 
 .second {
   position: relative;
-  &:hover .step2_i {
-    display: block;
-}  &:hover .step2 {
-  display: none;
-}
+//   &:hover .step2_i {
+//     display: block;
+// }  &:hover .step2 {
+//   display: none;
+// }
 }
 
 .step2_info {
@@ -269,11 +297,11 @@ label {
 
 .third {
   position: relative;
-  &:hover .step3_i {
-    display: block;
-}  &:hover .step3 {
-  display: none;
-}
+//   &:hover .step3_i {
+//     display: block;
+// }  &:hover .step3 {
+//   display: none;
+// }
 }
 
 .step3_info {

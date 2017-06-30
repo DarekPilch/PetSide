@@ -16,7 +16,5 @@ document.addEventListener("DOMContentLoaded", function(){
              errorMessage.innerText = 'Musisz zaakceptować regulamin';
              return;
          }
-
-
-     });
+       });
  });

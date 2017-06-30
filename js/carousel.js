@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 function slide() {
     const item_width = $('#carousel_ul li').outerWidth( true );
     const left_indent = 0 - item_width;
@@ -31,5 +33,34 @@ links.on('click', function(event) {
         scrollTop: positionHref.top
     }, 1000);
 })
+
+});
+
+$(".rabitt").click(function(){
+  $(".rabitt").addClass("animated hinge");
+  });
+
+$(".dog").click(function(){
+  $(".dog").addClass("animated rubberBand");
+  });
+
+$(".cat").click(function(){
+  $(".cat").addClass("animated tada");
+  });
+
+$(".step1").click(function(){
+  $(".step1").addClass("animated bounceOut");
+  $(".step1_i").addClass("animated fadeIn");
+});
+
+$(".step2").click(function(){
+  $(".step2").addClass("animated bounceOut");
+  $(".step2_i").addClass("animated fadeIn");
+});
+
+$(".step3").click(function(){
+  $(".step3").addClass("animated bounceOut");
+  $(".step3_i").addClass("animated fadeIn");
+});
 
 });
